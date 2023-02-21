@@ -1,0 +1,13 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img
+{
+    position: relative;
+    z-index: 0;
+    width: 80vw;
+    height: 49vw;
+}
