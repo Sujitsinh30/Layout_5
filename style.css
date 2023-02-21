@@ -73,13 +73,36 @@ img{
     background-color: rgb(8 190 197 / 65%);
     right: 0;
 }
-#bottom_sec{
+.bottom_sec {
     margin-left: 8rem;
     padding-left: 2rem;
-    border-left: 1rem solid white;   
+    border-left: 1rem solid white;
+    margin-top: 2rem;
 }
-#headingf h3 {
+.headingf{
+    position: absolute;
+    z-index: -2;
+}
+#head1{
     font-size: 10rem;
-    margin-top: -0.3em;
     font-weight: 900;
+}
+#head2{
+    font-size: 6rem;
+    margin-top: -0.5em;
+    font-weight: 100;
+}
+#head3{
+    margin-top: -0.6em;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+span{
+    font-weight: 900;
+    font-size: 8rem;t
+}
+#bottoml p
+{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
