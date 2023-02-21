@@ -22,7 +22,7 @@ img{
     background-color: rgba(255, 94, 0, 0.651);
     position: absolute;
     z-index: -2;
-    padding: 29vw;
+    padding: 30vw;
     left: 6rem;
 }
 .bar1
@@ -69,7 +69,7 @@ img{
 .cyan_sec {
     position: absolute;
     padding-left: 50vw;
-    padding-top: 50vw;
+    padding-top: 60vw;
     background-color: rgb(8 190 197 / 65%);
     right: 0;
 }
@@ -98,6 +98,7 @@ img{
     font-weight: 100;
 }
 span{
+    padding-right: 2rem;
     font-weight: 900;
     font-size: 8rem;t
 }
@@ -105,4 +106,7 @@ span{
 {
     font-size: 1.5rem;
     font-weight: 600;
+}
+#bottomr p{
+    padding-right: 2rem;
 }
