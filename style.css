@@ -10,39 +10,42 @@ html body
     width: 100%;
     overflow-x: hidden;
 }
-.img_section img{
+img{
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
-    z-index: -1;
-    width: 74vw;
+    z-index: -3;
+    width: 81vw;
+    height: 52vw;
 }
 .orng_sec{
     background-color: rgba(255, 94, 0, 0.651);
-    position: relative;
-    padding-top: 55%;
+    position: absolute;
+    z-index: -2;
+    padding: 29vw;
+    left: 6rem;
 }
 .bar1
 {
+    position:relative;
     left: 8rem;
     top: 1rem;
-    position: relative;
     height: 1rem;
     background-color: white;
     width: 90vw;
 }
 .bar2
 {
+    position:relative;
     left: 8rem;
     top: 2rem;
-    position: relative;
     height: 1rem;
     width: 7rem;
     background-color: white;
 }
-#top_sec{
+#top_sec {
+    height: 30vw;
     margin-left: 8rem;
-    background-image: linear-gradient(to right, rgba(255, 94, 0, 0.651) 50%, rgba(255, 255, 255, 0) 50%);
 }
 #topr
 {
@@ -62,4 +65,21 @@ html body
 #top_sec p {
     width: 28rem;
     margin-left: 2rem;
+}
+.cyan_sec {
+    position: absolute;
+    padding-left: 50vw;
+    padding-top: 50vw;
+    background-color: rgb(8 190 197 / 65%);
+    right: 0;
+}
+#bottom_sec{
+    margin-left: 8rem;
+    padding-left: 2rem;
+    border-left: 1rem solid white;   
+}
+#headingf h3 {
+    font-size: 10rem;
+    margin-top: -0.3em;
+    font-weight: 900;
 }
