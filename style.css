@@ -112,12 +112,19 @@ span{
     font-size: 1.5rem;
     font-weight: 600;
 }
-#bottomr p{
-    padding-right: 2rem;
+#bottomr  .footer_content{
+    margin-right: 2rem;
+    border-bottom: 0.2em solid rgb(8 190 197 / 65%);
 }
 .footer{
     padding-top: 5rem;
 }
 .footer img{
     max-width: 1rem;
+}
+#footl{
+    margin-top: -1rem;
+    height: 10rem;
+    border-top: 0.2em solid #4f7b74;
+    margin-right: 2rem;
 }
