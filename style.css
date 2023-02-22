@@ -22,8 +22,9 @@ img{
     background-color: rgba(255, 94, 0, 0.651);
     position: absolute;
     z-index: -2;
-    padding: 30vw;
+    padding-right: 55%;
     left: 6rem;
+    padding-top: 66vw;
 }
 .bar1
 {
@@ -75,7 +76,7 @@ h1{
 .cyan_sec {
     position: absolute;
     padding-left: 50vw;
-    padding-top: 60vw;
+    padding-top: 71vw;
     background-color: rgb(8 190 197 / 65%);
     right: 0;
 }
@@ -113,6 +114,7 @@ span{
     font-weight: 600;
 }
 #bottomr  .footer_content{
+    height: 14rem;
     margin-right: 2rem;
     border-bottom: 0.2em solid rgb(8 190 197 / 65%);
 }
@@ -124,7 +126,13 @@ span{
 }
 #footl{
     margin-top: -1rem;
-    height: 10rem;
+    height: 13rem;
     border-top: 0.2em solid #4f7b74;
     margin-right: 2rem;
 }
+a{
+    font-size: 2rem;
+
+}
+a:link{color: white;}
+a:visited{color: white;}
